@@ -17,3 +17,4 @@ test:
 	echo '{"a": "b"}' | python build/main.py "a"
 	echo '{"a": {"b": "c"}}' | python build/main.py "a.b"
 	echo '{"a.b": {"b": "c"}}' | python build/main.py "a\.b.b"
+	echo '{"a.b": {"b": {"c": "d"}}}' | python build/main.py "a\.b.b"

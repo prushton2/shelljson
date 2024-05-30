@@ -22,4 +22,10 @@ for i in parameters :
     object =object [i ]
     
 
-print (object )
+if (type (object )is str ):
+    print ("\""+object +"\"")
+    
+else :
+    print (object )
+    
+
